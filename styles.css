@@ -1,0 +1,113 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: none;
+	list-style:none;
+	text-decoration:none;
+	font-family:sans-serif;	
+	background:#fafaee;		
+
+}
+
+#content{
+	margin:auto;	
+	max-width:960px;
+
+}
+
+
+#banner{
+	margin-bottom:10px;
+	list-style:none;
+	background-color: #393d2f;
+}
+
+h1 {
+	text-align:center; 
+	color:#fafaee;
+	padding-bottom:10px;
+	font-family: 'Roboto Slab', serif;
+}
+
+h3 {
+	padding-bottom:10px;
+}
+
+p {
+	color:#393;
+}
+
+#nav {
+	text-align:center;
+}
+	
+	#nav li {
+		padding: 5px 0px;
+	}
+	
+	#nav li a{
+		color:#fafaee;
+	}
+
+	#nav a:hover {
+	color:#fff;
+	background:#CCC;
+	padding:6px;
+	border-radius:3px;	
+	}
+
+.botSign{
+	width:300px;
+	float:left;
+	padding:10px;
+}
+
+#aggressive {
+	float:left;
+	width: 300px;
+	padding:10px;
+	
+}
+
+#quote{
+	padding:10px;
+	margin-bottom:10px;
+	background:#9f8100;
+	color:#fafaee;
+	text-shadow:2px 2px 2px #000;
+}
+
+#environments{
+	float:left;
+	width:300px;
+	padding:10px;
+}
+
+.weedImage{
+	position:relative;
+	float:right;
+	width:50%;
+	padding-left:10px;
+	padding-bottom:10px;
+}
+		
+	
+	.weedCaption p{
+		padding-top:5px;
+		font-size:.75em;
+		font-style:italic;
+		
+		
+	}
+	
+	.weedCaption p cite.citation{
+		position:absolute;
+		right:0;
+		top:0;
+		background:#fff 0 0 .8;
+		font-size:9px;
+		
+	}
